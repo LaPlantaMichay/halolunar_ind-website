@@ -6,60 +6,75 @@
   <title>Halo Lunar - Indumentaria Musiquera</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
 
 <header>
   <h1>Halo Lunar</h1>
 </header>
 
-<nav>
-  <ul>
+<body>
+<main>
+<div id="navbar">
+  <ul id="navbarList">
     <li><a href="index.html">Inicio</a></li>
     <li> <a href="colecciones.html">Colecciones</a></li>
     <li><a href="opiniones.html">Opiniones</a></li>
     <li><a href="contacto.html">Contacto</a></li>
   </ul>
-</nav>
-
-<hr>
+</div>
 
 <section class="productos">
   <h2 class="titulo-seccion">Productos destacados</h2>
 
-  <hr>
-
-  <div class="contenido">
-    <div class="card">
-      <div class="info">
-        <h3>Remera Don Lucero Simple</h3>
-        <div>
-          <img src="img/IMG_3876.WEBP" alt=" " width="400">
-        </div>
-        <p>Diseño inspirado en lorem ipsum.</p>
-        <a href="contacto.html" class="btn">Consultar</a>
-      </div>
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <div class="numbertext"> 1 / 5 </div>
+      <div class="divImagen"><img class="imagenCarrusel" src="img/Remeras Nacionales - Halo Lunar/Almendra - simbolo.WEBP"/></div>
+      <div class="text">Remera de Almendra</div>
     </div>
-
-    <div class="card">
-      <div class="info">
-        <h3>Remera Para los Árboles Simple</h3>
-        <div>
-          <img src="img/IMG_3882.WEBP" alt=" " width="400"> </img>
-        </div>
-        <p>Diseño inspirado en lorem ipsum.</p>
-        <a href="contacto.html" class="btn">Consultar</a>
-      </div>
+    <div class="mySlides fade">
+      <div class="numbertext"> 2 / 5 </div>
+      <div class="divImagen"> <img class="imagenCarrusel" src="img/Remeras Nacionales - Halo Lunar/Charly - Modern Clix.WEBP"/></div>
+      <div class="text">Remera de Clics Modernos</div>
     </div>
+    <div class="mySlides fade">
+      <div class="numbertext"> 3 / 5 </div>
+      <div class="divImagen"> <img class="imagenCarrusel" src="img/Remeras Nacionales - Halo Lunar/Sumo - After Chabón.WEBP"/></div>
+      <div class="text">Remera de After Chabón</div>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext"> 4 / 5 </div>
+      <div class="divImagen"><img class="imagenCarrusel" src="img/Remeras Nacionales - Halo Lunar/Spinetta - Un mañana.WEBP"/></div>
+      <div class="text">Remera de Un Mañana</div>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext"> 5 / 5 </div>
+      <div class="divImagen"><img class="imagenCarrusel" src="img/Remeras Nacionales - Halo Lunar/Virus - Locura.WEBP"/></div>
+      <div class="text">Remera de Virus</div>
+    </div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
   </div>
 </section>
 
-<hr>
+<h2 style="align-items: center">Indumentaria Musiquera</h2>
+<p style="align-items: center">Mostrale tus gustos al mundo</p>
 
+    <script src="js/app.js"></script>
+
+</main>
 <footer>
   <p>Halo Lunar | Lorem Ipsum</p>
 </footer>
-
-<hr>
-
 </body>
 </html>
